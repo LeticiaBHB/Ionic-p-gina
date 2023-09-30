@@ -7,6 +7,12 @@ import { Component, Input } from '@angular/core';
 })
 export class ExploreContainerComponent {
 
-  @Input() name?: string;
+  @Input()
+  Card_photo:string=""
 
+  @Input()
+  Card_name: string=""
+
+  @Input()
+  Card_description: string=""
 }
